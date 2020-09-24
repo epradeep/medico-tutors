@@ -1,13 +1,13 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MV Admin</title>
+    <title>Medico Tutors Admin</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <!-- Fontastic Custom icon font-->
     <link rel="stylesheet" href="css/fontastic.css">
     <!-- Google fonts - Poppins -->
@@ -18,7 +18,6 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
-    <!--<link rel="shortcut icon" href="img/favicon.ico">-->
 	
 		
 	<!--AngularJS Script Starts Here-->
@@ -37,8 +36,3 @@
 		<!--datescript-->
     <!--AngularJS Script Ends Here-->
 	
-	<!-- Sweetalert-->
-		<!--<script src="js/sweetalert/sweetalert.js" ></script>
-		<script src="js/sweetalert/sweetalert.min.js" ></script>
-		<link rel="stylesheet" href="js/sweetalert/sweetalert.min.css" />-->
-	<!-- Sweetalert-->

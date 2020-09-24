@@ -16,7 +16,7 @@
               <div class="info d-flex align-items-center">
                 <div class="content">
                   <div class="logo">
-                    <h1>Medico Vibes</h1>
+                    <h1>Medico Tutors</h1>
                   </div>
                   <p>&nbsp;</p>
                 </div>
@@ -57,7 +57,7 @@
             					</div>
                       <!-- This should be submit button but I replaced it with <a> for demo purposes-->
                     </form>
-  				          <a href="forgot-password.php" class="forgot-pass">Forgot Password?</a>
+  				          <!--<a href="forgot-password.php" class="forgot-pass">Forgot Password?</a>-->
   				          <br>
   				          <!--<small>Do not have an account? </small><a href="#" class="signup">Signup</a>-->
                   </div>
@@ -68,16 +68,16 @@
         </div>
       </div>
       <div class="copyrights text-center">
-        <p>Powered by <a href="#" class="external">Dotweb.in</a>
+        
       </div>
     </div>
     <!-- JavaScript files-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper.js/umd/popper.min.js"> </script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-    <script src="vendor/chart.js/Chart.min.js"></script>
-    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/popper.js/umd/popper.min.js"> </script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="assets/chart.js/Chart.min.js"></script>
+    <script src="assets/jquery-validation/jquery.validate.min.js"></script>
     <!-- Main File-->
     <script src="js/front.js"></script>
   </body>
