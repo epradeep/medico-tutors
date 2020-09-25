@@ -55,24 +55,48 @@ Video.controller("IPMVideoController", function ($scope, $timeout, $http, jsonFi
 	};
 
 
-    $scope.CategoryArray = 
-    [
-
-	    "Live Interactions",
-	    "Advanced Pain Management",
-	    "Interventional Pain Management",
-	    "Acute Pain",
-	    "Chronic Pain Syndromes",
-	    "Basic Sciences",
-	    "General Considerations",
-	    "Lower Limb",
-	    "Upper Limb",
-	    "Back",
-	    "Pelvis",
-	    "Abdomen",
-	    "Thorax",
-	    "Head & Neck"
-	];
+	$scope.CategoryArray = [
+       {
+           "CategoryName" : "Live Interactions"
+        },
+		{
+           "CategoryName" : "Advanced Pain Management"
+        },
+		{
+           "CategoryName" : "Interventional Pain Management"
+        },
+		{
+           "CategoryName" : "Acute Pain"
+        }
+		,
+		{
+           "CategoryName" : "Chronic Pain Syndromes"
+        },
+		{
+           "CategoryName" : "General Considerations"
+        },
+		{
+           "CategoryName" : "Lower Limb"
+        },
+		{
+           "CategoryName" : "Upper Limb"
+        },
+		{
+           "CategoryName" : "Back"
+        },
+		{
+           "CategoryName" : "Pelvis"
+        },
+		{
+           "CategoryName" : "Abdomen"
+        },
+		{
+           "CategoryName" : "Thorax"
+        },
+		{
+           "CategoryName" : "Head & Neck"
+        }
+    ]
 
 	
 	/*
