@@ -13,7 +13,7 @@ if($_SESSION['UserId']!="")
   <head>
     <?php include_once("title.php"); ?>
   </head>
-  <body data-ng-cloak data-ng-app="IPMVideoModule" data-ng-controller="IPMVideoController" ng-init="GetCategoryList()">
+  <body data-ng-cloak data-ng-app="IPMVideoModule" data-ng-controller="IPMVideoController">
     <div class="page">
       <!-- Main Navbar-->
       <?php include_once("header.php"); ?>
@@ -49,7 +49,7 @@ if($_SESSION['UserId']!="")
                     </div>
                     <div class="card-body">
                       <p>&nbsp;</p>
-                    <form class="IPMForm" id="IPMForm" autocomplete="off" enctype="multipart/form-data" name="IPMForm" novalidate="" data-ng-submit="UpdateVideo(Update)">
+                    <form class="IPMForm" id="IPMForm" autocomplete="off" enctype="multipart/form-data" name="IPMForm" novalidate="" data-ng-submit="VideoData(Video)">
                     	<div class="form-row">
                     		<div class="form-group col-md-4">
         							    <label class="form-control-label">Category Name <span class="require">*</span></label>
