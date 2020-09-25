@@ -55,6 +55,27 @@ Video.controller("IPMVideoController", function ($scope, $timeout, $http, jsonFi
 	};
 
 
+    $scope.CategoryArray = 
+    [
+
+	    "Live Interactions",
+	    "Advanced Pain Management",
+	    "Interventional Pain Management",
+	    "Acute Pain",
+	    "Chronic Pain Syndromes",
+	    "Basic Sciences",
+	    "General Considerations",
+	    "Lower Limb",
+	    "Upper Limb",
+	    "Back",
+	    "Pelvis",
+	    "Abdomen",
+	    "Thorax",
+	    "Head & Neck"
+	];
+
+	
+	/*
 	$scope.GetCategoryList = function()
 	{
 		$http.get("load_categories.php")
@@ -71,10 +92,10 @@ Video.controller("IPMVideoController", function ($scope, $timeout, $http, jsonFi
 			}
 			
 	   }, function errorCallback(response) {
-		// called asynchronously if an error occurs
-		// or server returns response with an error status.
+		
 	  });
 	}
+	*/
 
 
 	
