@@ -219,7 +219,7 @@ Video.controller("IPMVideoController", function ($scope, $timeout, $http, jsonFi
 	}
 	
 	
-	$scope.VideoData = function (Update)
+	$scope.UpdateData = function (Update)
 	{
         $scope.submitted = true;
 		//console.log('editdateofenroll');
